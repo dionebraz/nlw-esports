@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    font-size: 1.6rem;
+    color: #fff;
+    background: #000;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-profile {
+    display: grid;
+    place-items: center;
+    margin-block: 3.2rem;
+}
+
+.profile-picture {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
+}
+
+.profile-picture img {
+    width: 12rem;
+    padding: 3px;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+.main-container {
+    min-width: 58rem;
+    display: grid;
+    gap: 2.4rem;
+    margin-bottom: 4.4rem;
+}
+
+.border-gradient {
+    padding: 3px 0px 0px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
+}
+
+.section {
+    position: relative;
+    padding: 2.4rem 3.2rem 3.2rem;
+    border-radius: 8px;
+    background: #2A2634;
+}
+
+.section article {
+    color: #A1A1AA;
+}
+
+.section div ul {
+    display: flex;
+    gap: 1.6rem;
+    list-style: none;
+}
+
+.section div li {
+    margin-top: 2.4rem;
+}
+
+.my-games .game-cards li {
+    aspect-ratio: 3/4;
+    width: 9rem;
+    height: 12rem;
+}
+
+.my-games .game-cards li img {
+    width: 9rem;
+    height: 12rem;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: ease-in .2s;
+}
+
+.my-games .game-cards li img:hover {
+    transform: scale(1.2);
+}
+
+.channels img {
+    border-radius: 50%;
+    transition-duration: .2s;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.channels img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.social-networks img {
+    transition-duration: .2s;
+}
+
+.social-networks img:hover {
+    transform: translateY(-5px);
+}
