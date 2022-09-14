@@ -58,17 +58,18 @@ a {
     margin-bottom: 4.4rem;
 }
 
-.border-gradient {
-    padding: 3px 0px 0px;
-    border-radius: 8px;
+.section {
+    position: relative;
+    padding-top: 4px;
+    border-radius: 10px;
     background: linear-gradient(90deg, #9572FC, #43E7AD, #E2D45C);
 }
 
-.section {
-    position: relative;
-    padding: 2.4rem 3.2rem 3.2rem;
+.section .border-gradient {
+    padding: 3.2rem;
+    padding-top: 2.4rem;
     border-radius: 8px;
-    background: #2A2634;
+    background-color: #2A2634;
 }
 
 .section article {
