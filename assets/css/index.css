@@ -18,6 +18,7 @@ body {
     display: grid;
     place-items: center;
     font-size: 1.6rem;
+    color: #fff;
     background-image: url(../images/fundo.png);
     background-position: top center;
     background-size: 100% auto;
